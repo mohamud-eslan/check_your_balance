@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.container input{
+    width: 80%;
+    height: 20px;
+    font-size: 20px
+}
+.container button{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+
+}
+.container p{
+    background-color:rgb(253, 7, 7);
+    text-align: center;
+    color: rgb(253, 252, 252);
+    height: 100px;
+}
